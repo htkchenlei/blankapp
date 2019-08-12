@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BLANK APP</string>
+    <string name="radio_button_china">国内</string>
+    <string name="radio_button_world">国外</string>
+    <string name="radio_button_sports">体育</string>
+    <string name="radio_button_technology">科技</string>
+</resources>

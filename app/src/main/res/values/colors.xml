@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_lightest">#F6EEFD</color>
+    <color name="purple_light">#DCC0FA</color>
+    <color name="purple">#9644EE</color>
+    <color name="purple_dark">#7215D8</color>
+    <color name="purple_darkest">#520F9A</color>
+    <color name="purple_lightest_font_color">#9B65DD</color>
+    <color name="purple_light_font_color">#3F3B5A</color>
+    <color name="purple_font_color">#E6C2FF</color>
+    <color name="purple_dark_font_color">#DCBFFF</color>
+    <color name="purple_darkest_font_color">#C4A1D7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="popup">#2A3235</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_bg">#22000000</color>
+</resources>

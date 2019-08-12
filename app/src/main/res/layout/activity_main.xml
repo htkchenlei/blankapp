@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/viewPager"
+        android:paddingTop="10dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/user"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_lightest"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@id/title"
+        android:layout_above="@id/radioGroup">
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/purple"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+                <RadioButton
+                    android:id="@+id/china"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/china_selector"
+                    android:paddingTop="5dp"
+                    android:text="@string/radio_button_china"
+                    android:textColor="@drawable/font_selector"
+                    android:button="@null"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/world"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/world_selector"
+                    android:paddingTop="5dp"
+                    android:text="@string/radio_button_world"
+                    android:textColor="@drawable/font_selector"
+                    android:button="@null"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/sports"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/sports_selector"
+                    android:paddingTop="5dp"
+                    android:text="@string/radio_button_sports"
+                    android:textColor="@drawable/font_selector"
+                    android:button="@null"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/technology"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/tech_selector"
+                    android:paddingTop="5dp"
+                    android:text="@string/radio_button_technology"
+                    android:textColor="@drawable/font_selector"
+                    android:button="@null"
+                    android:layout_weight="1"/>
+
+
+    </RadioGroup>
+
+</RelativeLayout>
